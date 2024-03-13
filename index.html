@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="one">
+   <div id="div" class="rounded-4">
+      <h3 class="text-center" id="grade">GRADING SYSTEM</h3>
+      <div class="form-floating col-6 mx-auto" id="input">
+         <input type="number" class="form-control text-dark" id="num" placeholder="Enter your number">
+        <!-- <label for="num">Input your number</label> -->
+      </div>
+      <div class="my-3 col-6 mx-auto">
+         <button class="btn w-100 btn-primary fw-bold" onclick="checkValue()" id="check">Check</button>
+      </div>
+      <div id="answer" class="text-center text-dark pt-2 mx-auto">See your results here</div>
+   </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>

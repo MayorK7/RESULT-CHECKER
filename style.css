@@ -1,0 +1,66 @@
+#one{
+    background-size:cover;
+    background-image: url(images/Screenshot_20220707-142549~2.png);
+    
+}
+/* #show{
+    color: white;
+    background: none;
+    font-size: 100px; */
+    /* background: transparent; */
+
+#input{
+    /* margin-top: 180px; */
+}
+#grade{
+    /* text-align: center;
+    transform: translate(0px,170px); */
+    background: none;
+    color: blue;
+}
+#div{
+    margin-top: 210px;
+    background-image: url(images/pexels-fabrizio-velez-14846793.jpg);
+    /* background-color:black; */
+    width: 500px;
+    transform: translate(400px,0px);
+
+}
+#answer{
+    background: none;
+    border: 3px solid blue;
+    width: 300px;
+    height: 50px;
+    font-weight: 600;
+    background-color: white;
+
+}
+#num{
+    background: white;
+}
+#check{
+    background: white;
+    color: blue;
+}
+@media screen and (max-width: 480px) {
+    /* .body{
+        background-size: cover;
+        overflow-x: hidden;
+        margin: auto;
+    } */
+    #answer{
+        width: 150px;
+        height: 35px;
+        font-weight: 100;
+        color: black;
+        font-size: 15px;
+    }
+    #div{
+        width: 190px;
+        transform: translate(15px,0px);
+    }
+    #grade{
+        font-size: 15px;
+    }
+    
+}
