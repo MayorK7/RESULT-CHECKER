@@ -43,24 +43,33 @@
     color: blue;
 }
 @media screen and (max-width: 480px) {
-    /* .body{
+    #one{
         background-size: cover;
         overflow-x: hidden;
         margin: auto;
-    } */
+    }
     #answer{
         width: 150px;
         height: 35px;
         font-weight: 100;
         color: black;
         font-size: 15px;
+        margin-top: 70px;
     }
     #div{
         width: 190px;
-        transform: translate(15px,0px);
+        transform: translate(130px,0px);
+        height: 350px;
     }
     #grade{
         font-size: 15px;
+        transform: translate(0px,40px);
+    }
+    #check{
+        margin-top: 70px;
+    }
+    #num{
+        transform: translate(0px,70px);
     }
     
 }
